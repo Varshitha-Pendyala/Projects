@@ -1,4 +1,4 @@
-***************************Earthquake Data Engineering Project with Microsoft Fabric***************************************
+*******************************Earthquake Data Engineering Project with Microsoft Fabric************************************
 *****Project Overview
 This project demonstrates how to build an end-to-end data engineering and analytics pipeline using Microsoft Fabric,
 integrating Data Factory, Data Engineering, and Power BI for seamless data processing and visualization.
