@@ -1,1 +1,52 @@
+***************************Earthquake Data Engineering Project with Microsoft Fabric***************************************
+*****Project Overview
+This project demonstrates how to build an end-to-end data engineering and analytics pipeline using Microsoft Fabric,
+integrating Data Factory, Data Engineering, and Power BI for seamless data processing and visualization.
+The pipeline ingests Earthquake event data from the USGS API, processes it through Bronze, Silver, and Gold layers,
+and prepares it for advanced analytics and reporting.
+
+*****Technologies Used
+Python (Data Processing)
+PySpark (Large-Scale Data Transformation)
+Microsoft Fabric (Data Engineering, Data Factory, Power BI)
+
+*****Getting Started
+Repository Contents
+1. Bronze Layer Processing
+Purpose: Ingests raw earthquake data from the USGS API with minimal processing.
+Output: Stores data in its original format for foundational use.
+
+2. Silver Layer Processing
+Purpose: Enhances Bronze layer data by cleaning, transforming, and consolidating it.
+Output: Prepares structured data for analytical processing.
+
+3. Gold Layer Processing
+Purpose: Refines data into business-ready datasets optimized for reporting and visualization.
+Output: High-value datasets tailored for Power BI dashboards and advanced analytics.
+
+*****Data Attribute Definitions
+Attribute	Data Type	Description
+id	String	Unique identifier for each earthquake event.
+latitude	Double	Latitude of the earthquake location.
+longitude	Double	Longitude of the earthquake location.
+elevation	Double	Elevation (in meters) where the event occurred.
+title	String	Descriptive title of the earthquake event.
+place_description	String	Detailed location description.
+sig	BigInt	Significance score of the earthquake.
+mag	Double	Magnitude of the earthquake.
+magType	String	Magnitude scale used (e.g., "Mw", "Ml").
+time	Timestamp	Exact time when the earthquake occurred.
+updated	Timestamp	Last update time of the event data.
+
+*****Prerequisites
+✅ Microsoft Fabric Account (Access required).
+✅ Fabric Administrator privileges (or access to an admin account).
+✅ Basic knowledge of Python, Spark, and data engineering concepts.
+✅ Familiarity with Power BI (for visualization).
+
+*****Next Steps
+Run the Bronze notebook to ingest raw data.
+Process data in Silver for cleaning and transformation.
+Generate insights in Gold for Power BI reporting.
+
 
